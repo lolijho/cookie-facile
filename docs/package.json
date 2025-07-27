@@ -1,5 +1,13 @@
 {
   "private": true,
-  "name": "cookieconsent-docs",
-  "type": "module"
+  "name": "cookie-facile-docs",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "1.6.3"
+  }
 }
